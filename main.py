@@ -43,14 +43,14 @@ except ValueError:
 ADMINS.append(OWNER)
 
 bot = Client("bot",    
-   bot_token="8003649544:AAGoiThVN8KLJyKGsGf1BcfTsjDTrSmjFR8",    
-   api_id="27900743"    
-   api_hash=""
+   bot_token= "8003649544:AAGoiThVN8KLJyKGsGf1BcfTsjDTrSmjFR8",
+   api_id= "27900743",
+   api_hash= "ebb06ea8d41420e60b29140dcee902fc",
 )
 
 @bot.on_message(filters.command(["started"]))    
 async def account_login(bot: Client, m: Message):    
-    editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /scammer ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/ScmersHell</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
+    editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /jaibajrangbali ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
 
 @bot.on_message(filters.command("stop"))    
 async def restart_handler(_, m):    
