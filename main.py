@@ -23,7 +23,6 @@ import os
 import urllib
 import urllib.parse
 import tgcrypto
-import clocraper
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 from base64 import b64encode, b64decode
